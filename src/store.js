@@ -97,13 +97,16 @@ const store = {
   ],
   people: [
     {
-      name: 'William'
+      name: 'William',
+      password: 'password1'
     },
     {
-      name: 'James'
+      name: 'James',
+      password: 'password2'
     },
     {
-      name: 'John'
+      name: 'John',
+      password: 'password3'
     }
   ]
 };
