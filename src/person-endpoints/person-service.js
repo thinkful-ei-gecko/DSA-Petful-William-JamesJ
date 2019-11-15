@@ -1,7 +1,6 @@
 const { personQueue } = require('../store');
 
 const personService = {
-  //counter for place in line
   countPlaceInLine(name) {
     let node = personQueue.first;
     let counter = 0;

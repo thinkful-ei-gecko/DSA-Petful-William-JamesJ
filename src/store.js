@@ -9,7 +9,8 @@ const store = {
       sex: 'Female',
       age: 2,
       breed: 'Bengal',
-      story: 'Thrown on the street'
+      story: 'Thrown on the street',
+      animalType: 'cats'
     },
     {
       imageURL:'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg', 
@@ -18,7 +19,8 @@ const store = {
       sex: 'Female',
       age: 2,
       breed: 'Bengal',
-      story: 'Thrown on the street'
+      story: 'Thrown on the street',
+      animalType: 'cats'
     },
     {
       imageURL:'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg', 
@@ -27,7 +29,8 @@ const store = {
       sex: 'Female',
       age: 2,
       breed: 'Bengal',
-      story: 'Thrown on the street'
+      story: 'Thrown on the street',
+      animalType: 'cats'
     },
     {
       imageURL:'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg', 
@@ -36,7 +39,8 @@ const store = {
       sex: 'Female',
       age: 2,
       breed: 'Bengal',
-      story: 'Thrown on the street'
+      story: 'Thrown on the street',
+      animalType: 'cats'
     },
     {
       imageURL:'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg', 
@@ -45,7 +49,8 @@ const store = {
       sex: 'Female',
       age: 2,
       breed: 'Bengal',
-      story: 'Thrown on the street'
+      story: 'Thrown on the street',
+      animalType: 'cats'
     },
   ],
   dogs: [
@@ -56,7 +61,8 @@ const store = {
       sex: 'Male',
       age: 3,
       breed: 'Golden Retriever',
-      story: 'Owner Passed away'
+      story: 'Owner Passed away',
+      animalType: 'dogs'
     },
     {
       imageURL: 'http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg',
@@ -65,7 +71,8 @@ const store = {
       sex: 'Male',
       age: 3,
       breed: 'Golden Retriever',
-      story: 'Owner Passed away'
+      story: 'Owner Passed away',
+      animalType: 'dogs'
     },
     {
       imageURL: 'http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg',
@@ -74,7 +81,8 @@ const store = {
       sex: 'Male',
       age: 3,
       breed: 'Golden Retriever',
-      story: 'Owner Passed away'
+      story: 'Owner Passed away',
+      animalType: 'dogs'
     },
     {
       imageURL: 'http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg',
@@ -83,7 +91,8 @@ const store = {
       sex: 'Male',
       age: 3,
       breed: 'Golden Retriever',
-      story: 'Owner Passed away'
+      story: 'Owner Passed away',
+      animalType: 'dogs'
     },
     {
       imageURL: 'http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg',
@@ -92,7 +101,8 @@ const store = {
       sex: 'Male',
       age: 3,
       breed: 'Golden Retriever',
-      story: 'Owner Passed away'
+      story: 'Owner Passed away',
+      animalType: 'dogs'
     }
   ],
   people: [
