@@ -10,8 +10,15 @@ dogRouter
     return res.status(200).json(dogServices.getOneDog(store));
   })
   .delete((req,res,next) => {
-    dogServices.deletedog(store);
+    dogServices.deleteDog(store);
     return res.status(204).end();
+  });
+
+dogRouter
+  .route('/:dog_name')
+  .get((req,res,next) => {
+    const dogName = req.params.dog_name;
+    return res.status(200).json(dogServices.getNextDog(dogName));
   });
 
 module.exports = dogRouter;

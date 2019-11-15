@@ -9,6 +9,18 @@ const dogServices = {
     return dogQueue.first.value;
   },
 
+  getNextDog(dogName) {
+    let node = dogQueue.first;
+    while(dogName !== node.value.name) {
+      node = node.next;
+    }
+    if(node.next !== null) {
+      return node.next.value;
+    } else {
+      throw new Error('No more dogs');
+    }
+  },
+
   deleteDog() {
     return dogQueue.dequeue();
   }
