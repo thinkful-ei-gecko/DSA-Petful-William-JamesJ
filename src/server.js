@@ -3,9 +3,12 @@ const cors = require('cors');
 const catRouter = require('./cat-endpoints/cat-router');
 const dogRouter = require('./dog-endpoints/dog-router');
 const personRouter = require('./person-endpoints/person-router');
+const { PORT, CLIENT_ORIGIN } = require('./config');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: CLIENT_ORIGIN
+}));
 
 app.get('/', (req,res,next) => {
   return res.status(200).send('Hello world');
@@ -32,6 +35,6 @@ app.use(function (err, req, res, next) {
   });
 });
 
-app.listen(8080,()=>{
-  console.log('Serving on 8080');
+app.listen(PORT,()=>{
+  console.log(`Serving on ${PORT}`);
 });
