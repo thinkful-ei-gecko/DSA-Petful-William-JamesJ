@@ -10,10 +10,6 @@ app.use(cors({
   origin: CLIENT_ORIGIN
 }));
 
-app.get('/', (req,res,next) => {
-  return res.status(200).send('Hello world');
-});
-
 app.use('/api/cats', catRouter);
 app.use('/api/dogs', dogRouter);
 app.use('/api/person', personRouter);
