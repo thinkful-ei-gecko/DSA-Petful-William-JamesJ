@@ -13,7 +13,7 @@ const store = {
       animalType: 'cats'
     },
     {
-      imageURL:'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg', 
+      imageURL:'https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', 
       imageDescription: 'Orange bengal cat with black stripes lounging on concrete.',
       name: 'Sparkles',
       sex: 'Female',
@@ -23,7 +23,7 @@ const store = {
       animalType: 'cats'
     },
     {
-      imageURL:'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg', 
+      imageURL:'https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', 
       imageDescription: 'Orange bengal cat with black stripes lounging on concrete.',
       name: 'Tony',
       sex: 'Female',
@@ -33,7 +33,7 @@ const store = {
       animalType: 'cats'
     },
     {
-      imageURL:'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg', 
+      imageURL:'https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', 
       imageDescription: 'Orange bengal cat with black stripes lounging on concrete.',
       name: 'Garfield',
       sex: 'Female',
@@ -43,7 +43,7 @@ const store = {
       animalType: 'cats'
     },
     {
-      imageURL:'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg', 
+      imageURL:'https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', 
       imageDescription: 'Orange bengal cat with black stripes lounging on concrete.',
       name: 'Captain',
       sex: 'Female',
@@ -65,7 +65,7 @@ const store = {
       animalType: 'dogs'
     },
     {
-      imageURL: 'http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg',
+      imageURL: 'https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
       imageDescription: 'A smiling golden-brown golden retreiver listening to music.',
       name: 'Thor',
       sex: 'Male',
@@ -75,7 +75,7 @@ const store = {
       animalType: 'dogs'
     },
     {
-      imageURL: 'http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg',
+      imageURL: 'https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
       imageDescription: 'A smiling golden-brown golden retreiver listening to music.',
       name: 'Loki',
       sex: 'Male',
@@ -85,7 +85,7 @@ const store = {
       animalType: 'dogs'
     },
     {
-      imageURL: 'http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg',
+      imageURL: 'https://www.pexels.com/photo/adult-black-pug-1851164/',
       imageDescription: 'A smiling golden-brown golden retreiver listening to music.',
       name: 'Buster',
       sex: 'Male',
@@ -95,7 +95,7 @@ const store = {
       animalType: 'dogs'
     },
     {
-      imageURL: 'http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg',
+      imageURL: 'https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
       imageDescription: 'A smiling golden-brown golden retreiver listening to music.',
       name: 'Scooter',
       sex: 'Male',
