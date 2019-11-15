@@ -1,14 +1,16 @@
+const { dogQueue } = require('../store');
+
 const dogServices = {
-  getAllDogs(store) {
-    return store.dogs;
+  getAllDogs() {
+    return dogQueue;
   },
 
-  getOneDog(store) {
-    return store.dogs[0];
+  getOneDog() {
+    return dogQueue.first.value;
   },
 
-  deleteDog(store) {
-    delete store.dogs[0];
+  deleteDog() {
+    return dogQueue.dequeue();
   }
 };
 

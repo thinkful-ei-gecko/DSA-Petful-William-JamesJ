@@ -1,14 +1,16 @@
+const { catQueue } = require('../store');
+
 const catServices = {
-  getAllCats(store) {
-    return store.cats;
+  getAllCats() {
+    return catQueue;
   },
 
-  getOneCat(store) {
-    return store.cats[0];
+  getOneCat() {
+    return catQueue.first.value;
   },
 
-  deleteCat(store) {
-    delete store.cats[0];
+  deleteCat() {
+    return catQueue.dequeue();
   }
 };
 
