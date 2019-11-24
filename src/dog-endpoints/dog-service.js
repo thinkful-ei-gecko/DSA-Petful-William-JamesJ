@@ -6,6 +6,9 @@ const dogServices = {
   },
 
   getOneDog() {
+    if (dogQueue.first === null) {
+      return null
+    }
     return dogQueue.first.value;
   },
 

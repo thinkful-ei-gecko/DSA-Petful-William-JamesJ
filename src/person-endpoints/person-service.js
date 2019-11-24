@@ -1,26 +1,51 @@
-const { personQueue } = require('../store');
+const { personQueue } = require('../store')
 
 const personService = {
-  countPlaceInLine(name) {
-    let node = personQueue.first;
-    let counter = 0;
+  countPlaceInLine(name, password) {
+    let node = personQueue.first
+    let counter = 0
 
-    while(node.value.name !== name) {
-      counter ++;
-      node = node.next;
+    while (node !== null) {
+      if (node.value.name === name && node.value.password === password) {
+        break
+      } else {
+        counter++
+        node = node.next
+      }
     }
-    if(node !== null) {
-      return counter;
+
+    if (node !== null) {
+      return counter
+    } else {
+      return -1
     }
+  },
+
+  getPersons() {
+    let people = []
+    let tempPerson = personQueue.first
+    if (tempPerson === null) {
+      return people
+    }
+    while (tempPerson.next !== null) {
+      people.push(tempPerson.value)
+      tempPerson = tempPerson.next
+    }
+    people.push(tempPerson.value)
+    return people
   },
 
   getFirstPerson() {
-    return personQueue.first.value;
+    return personQueue.first.value
   },
 
   removePerson() {
-    return personQueue.dequeue();
-  }
-};
+    return personQueue.dequeue()
+  },
 
-module.exports = personService;
+  addPerson(data) {
+    return personQueue.enqueue(data)
+  },
+}
+
+module.exports = personService
